@@ -126,6 +126,7 @@ function Box({ children }) {
 }
 
 function MovieList({ movies, onSelectMovie }) {
+  console.log(movies);
   return (
     <ul className="list list-movies">
       {movies?.map((movie) => (
@@ -180,7 +181,7 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }) {
       async function getMovieDetails() {
         setIsLoading(true);
         const res = await fetch(
-          `http://www.omdbapi.com/?apikey=${KEY}&i=${selectedId}`
+          `https://www.omdbapi.com/?apikey=${KEY}&i=${selectedId}`
         );
         const data = await res.json();
         setMovie(data);
