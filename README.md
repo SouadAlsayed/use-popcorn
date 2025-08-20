@@ -3,14 +3,6 @@
 React movie app for searching, rating, and tracking your watched movies with OMDB API integration.
 
 
-## 📜 Available Scripts
-
-npm start - Run in development mode
-<br/>
-npm test - Run tests
-<br/>
-npm run build - Build for production
-
 ## ✨ Features
 
 - **Movie Search:** Real-time search with OMDB API integration
@@ -20,6 +12,14 @@ npm run build - Build for production
 - **Persistent Storage:** Your watched list persists using localStorage
 - **Keyboard Navigation:** Press Enter to focus search, Escape to close details
 
+
+## 📜 Available Scripts
+
+ - Run in development mode `npm start`
+ - Run tests `npm test`
+ - Build for production `npm run build`
+
+   
 ## 🛠️ Tech Stack
 React • Custom Hooks • OMDB API • localStorage • CSS3
 
